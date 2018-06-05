@@ -1,0 +1,18 @@
+.rectangle1{
+  width: 1000px;
+  height: 200px;
+  background: #00FFAF;
+  float: left;
+}
+.rectangle2{
+  width: 1000px;
+  height: 200px;
+  background: #1E90FF;
+  float: left;
+}
+.rectangle3{
+  width: 1000px;
+  height: 200px;
+  background: #FF6347;
+  float: left;
+}
