@@ -1,24 +1,23 @@
-h1{
+.votreidentite legend{
   background-color: #2574A9;
 }
-
-.rectangle1{
-  width: 100%;
-  height: 180px;
-  background: #2574A9;
-  float: left;
+.votreidentite{
+  background-color: #2574A9;
 }
-
-.rectangle2{
-  width: 100%;
-  height: 180px;
-  background: #9A12B3;
-  float: left;
+.addressedelivraison legend{
+  background-color: #9A12B3;
 }
-
-.rectangle3{
-  width: 100%;
-  height: 180px;
-  background: #DB0A5B;
+.addressedelivraison{
+  background-color: #9A12B3;
+}
+.informationdereglemant legend{
+  background-color: #DB0A5B;
+}
+.informationdereglemant{
+  background-color: #DB0A5B;
+}
+button{
+  width: auto;
   float: left;
+  text-align: center;
 }

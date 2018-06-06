@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css"/>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Exercice Html</title>
   </head>
-
   <body>
+      <form action="index.html" method="post">
+        <fieldset class="votreidentite">
+          <legend>Votre identité</legend>
+          <p>
+            <label>1. Nom</label> : <input type="text" name="Nom" value="Nom" />
+          </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>2. Prénom</label> : <input type="text" value="Prénom" />
+        </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>3. Adresse mail</label> : <input type="text" value="Adressemail" />
+        </p>
+        </fieldset>
+      </form>
 
-    <h1>Votre identité</h1>
+      <form action="index.html" method="post">
+        <fieldset class="addressedelivraison">
+          <legend>Addresse de livraison</legend>
+        <p>
+          <label>1. Adress</label>
+          <textarea name="adress"></textarea>
+        </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>2. Code postal</label> : <input type="text" value="Code postal" />
+        </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>3. Ville</label> : <input type="text" value="Ville" />
+        </p>
+        </fieldset>
+      </form>
 
-    <div class="rectangle1"></div>
-
-    <h2>Addresse de livraison</h2>
-
-    <div class="rectangle2"></div>
-
-    <h3>Information de réglement</h3>
-
-    <div class="rectangle3"></div>
-
+      <form action="index.html" method="post">
+        <fieldset class="informationdereglemant">
+          <legend>Information de réglement</legend>
+          <p>
+            1. Type de carte bancaire :</br>
+          <input type="radio" name="cartebleu" value="Visa" /> <label>Visa</label></br>
+          <input type="radio" name="cartebleu" value="MasterCard" /> <label>MasterCard</label>
+          </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>2. Numéro de carte</label> : <input type="text" value="Numéro de carte">
+        </p>
+      </form>
+      <form action="index.html" method="post">
+        <p>
+          <label>3. Code de sécurité</label> : <input type="text" value="Code de sécurité" />
+        </p>
+      <form action="index.html" method="post">
+        <p>
+          <label>4. Nom du titulaire</label> : <input type="text" value="Nom du titulaire">
+        </p>
+        </fieldset>
+      </form>
+    <button type="button">J'achète! </button>
   </body>
 </html>
