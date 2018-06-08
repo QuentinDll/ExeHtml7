@@ -13,6 +13,9 @@
 .informationdereglemant legend{
   background-color: #DB0A5B;
 }
+ul{
+  list-style-type: none;
+}
 .informationdereglemant{
   background-color: #DB0A5B;
 }

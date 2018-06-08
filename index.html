@@ -1,74 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Exercice Html</title>
-  </head>
-  <body>
-      <form action="index.html" method="post">
-        <fieldset class="votreidentite">
-          <legend>Votre identité</legend>
-          <p>
-            <label>1. Nom</label> : <input type="text" name="Nom" value="Nom" />
-          </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>2. Prénom</label> : <input type="text" value="Prénom" />
-        </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>3. Adresse mail</label> : <input type="text" value="Adressemail" />
-        </p>
-        </fieldset>
-      </form>
-
-      <form action="index.html" method="post">
-        <fieldset class="addressedelivraison">
-          <legend>Addresse de livraison</legend>
-        <p>
-          <label>1. Adress</label>
-          <textarea name="adress"></textarea>
-        </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>2. Code postal</label> : <input type="text" value="Code postal" />
-        </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>3. Ville</label> : <input type="text" value="Ville" />
-        </p>
-        </fieldset>
-      </form>
-
-      <form action="index.html" method="post">
-        <fieldset class="informationdereglemant">
-          <legend>Information de réglement</legend>
-          <p>
-            1. Type de carte bancaire :</br>
-          <input type="radio" name="cartebleu" value="Visa" /> <label>Visa</label></br>
-          <input type="radio" name="cartebleu" value="MasterCard" /> <label>MasterCard</label>
-          </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>2. Numéro de carte</label> : <input type="text" value="Numéro de carte">
-        </p>
-      </form>
-      <form action="index.html" method="post">
-        <p>
-          <label>3. Code de sécurité</label> : <input type="text" value="Code de sécurité" />
-        </p>
-      <form action="index.html" method="post">
-        <p>
-          <label>4. Nom du titulaire</label> : <input type="text" value="Nom du titulaire">
-        </p>
-        </fieldset>
-      </form>
-    <button type="button">J'achète! </button>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Exercice Html</title>
+</head>
+<body>
+  <fieldset class="votreidentite">
+    <legend>Votre identité</legend>
+    <ol>
+      <li><label>Nom :</label><input type="text" placeholder="Nom" /></li>
+      <li><label>Prénom :</label><input type="text" placerholder="Prénom" /></li>
+      <li><label>Adresse mail :</label><input type="text" placerholder="Adressemail" /></li>
+    </ol>
+  </fieldset>
+  <fieldset class="addressedelivraison">
+    <legend>Addresse de livraison</legend>
+    <ol>
+      <li><label>Adress : </label><textarea name="adress" placeholder="Adress"></textarea></li>
+      <li><label>Code postal : </label><input type="text" placeholder="Code postal" /></li>
+      <li><label>Ville : </label><input type="text" placeholder="Ville" /></li>
+    </ol>
+  </fieldset>
+  <fieldset class="informationdereglemant">
+    <legend>Information de réglement</legend>
+    <ol>
+      <li><p>Type de carte bancaire : </p>
+        <ul>
+          <li><input type="radio" name="carteCredit" value="Visa" /> <label>Visa</label></li>
+          <li><input type="radio" name="carteCredit" value="MasterCard" /> <label>MasterCard</label></li>
+        </ul>
+      </li>
+      <li><label>Numéro de carte : </label><input type="text" value="Numéro de carte" /></li>
+      <li><label>Code de sécurité : </label><input type="text" value="Code de sécurité" /></li>
+      <li><label>Nom du titulaire : </label><input type="text" value="Nom du titulaire" /></li>
+    </ol>
+  </fieldset>
+  <button type="button">J'achète! </button>
+</body>
 </html>
